@@ -1,0 +1,75 @@
+.nav-bar {
+  display: flex;
+  text-transform: capitalize;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+  background-color: rgb(240, 209, 151);
+  padding: 10px;
+}
+
+.header-tittle {
+  margin-left: 20px;
+  color: blue;
+  font-weight: 750;
+  font-style: italic;
+}
+
+.navigationlist {
+  text-decoration: none;
+  display: flex;
+  padding-right: 4rem;
+  gap: 6rem;
+  color: green;
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+nav a {
+  color: green;
+}
+a:hover {
+  color: rgb(78, 9, 18);
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* Link Styles */
+.login-link {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4a90e2; /* Blue color for Login link */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.login-link:hover {
+  background-color: #357ab8;
+}
+
+.blogs-link {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #e29b4a; /* Orange color for Blogs link */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.blogs-link:hover {
+  background-color: #b8732e;
+}

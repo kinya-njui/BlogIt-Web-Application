@@ -1,0 +1,48 @@
+.feed-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.writer-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 10px; /* Spacing between buttons */
+}
+
+.cta-buttons button {
+  padding: 8px 16px;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.cta-buttons button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.cta-buttons button:active {
+  transform: scale(1); /* Remove zoom effect when clicked */
+}

@@ -1,0 +1,28 @@
+.hero-section {
+  height: 65rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../../assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  padding: 15rem;
+  height: 90vh;
+}
+
+.hero-title {
+  padding: 8rem;
+  font-style: italic;
+  color: #aa9312;
+}
+
+.hero-title-text {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 3rem 2rem;
+}

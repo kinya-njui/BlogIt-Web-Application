@@ -1,0 +1,42 @@
+.nav-bar {
+  display: flex;
+  text-transform: capitalize;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+  background-color: rgb(240, 209, 151);
+  padding: 10px;
+}
+
+.header-tittle {
+  margin-left: 20px;
+  color: blue;
+  font-weight: 750;
+  font-style: italic;
+}
+
+.navigationlist {
+  text-decoration: none;
+  display: flex;
+  padding-right: 4rem;
+  gap: 6rem;
+  color: green;
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+nav a {
+  color: green;
+}
+a:hover {
+  color: rgb(78, 9, 18);
+  background-color: white;
+  border-radius: 5px;
+}
